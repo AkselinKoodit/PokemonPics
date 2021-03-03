@@ -5,3 +5,14 @@ td {
   border: 1px #333 solid;
   padding: 1rem;
 }
+#infoboard {
+  width: 200px;
+  height: 200px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+.image {
+  background-image: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172.png");
+}
