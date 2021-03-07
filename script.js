@@ -1,5 +1,3 @@
-let listNames = document.getElementById("listNames");
-let listLinks = document.getElementById("listLinks");
 let pokemons = [];
 let names = [];
 let links = [];
@@ -49,7 +47,11 @@ function showInfo() {
         console.log(pokemon.sprites.front_default);
 
         let imageDiv = document.createElement("div");
-        imageDiv.innerHTML = `<div>Pokemon info: Name: ${pokemons[index].name} Weight: ${pokemon.weight}<img src="${pokemon.sprites.front_default}"alt = "eweq"></img></div>`;
+        imageDiv.innerHTML = `<div>Pokemon info: Name: ${
+          pokemons[index].name
+        } Weight: ${pokemon.weight / 10} kg <img src="${
+          pokemon.sprites.front_default
+        }"alt = "eweq"></img></div>`;
         document.getElementById("infoboard").appendChild(imageDiv);
       });
   }
