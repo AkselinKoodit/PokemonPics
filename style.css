@@ -6,11 +6,19 @@ body {
   font-family: "Press Start 2P", cursive;
   line-height: 1.6;
 }
+h1 {
+  margin-bottom: 1rem;
+}
+h3 {
+  margin-bottom: 1rem;
+}
 #background {
   background-image: url("https://source.unsplash.com/6cLZeHcheMM");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
 }
 #infoboard {
   display: flex;
