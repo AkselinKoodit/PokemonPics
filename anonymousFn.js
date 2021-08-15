@@ -1,7 +1,9 @@
 //here I try to do the same js functionality as in script.js cleaner, using anonymous function
 (function () {
   document.addEventListener("DOMContentLoaded", () => {
-    console.log("DOM loaded, lets get coding!");
+    console.log(
+      "Changed this text to check is updates automatically to AWS..."
+    );
     let pokemons = [];
 
     async function getData() {
